@@ -97,6 +97,9 @@ color: white;
 
 @media (max-width:840px){
 
+    body{
+        justify-content: normal;
+    }
     .container{
         flex-direction: column;
         margin: 12px;
