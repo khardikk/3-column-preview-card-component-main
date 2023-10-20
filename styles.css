@@ -38,11 +38,23 @@ body{
 .card.sedan button{
     color: hsl(31, 77%, 52%);
 }
+.card.sedan button:hover{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 2px white;
+}
 .card.suv{
     background-color: hsl(184, 100%, 22%);
 }
 .card.suv button{
     color: hsl(184, 100%, 22%);
+}
+.card.suv button:hover{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 2px white;
 }
 .card.luxury{
     border-radius: 0px 10px 10px 0px;
@@ -51,7 +63,12 @@ body{
 .card.luxury button{
     color: hsl(179, 100%, 13%);
 }
-
+.card.luxury button:hover{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 2px white;
+}
 h2{
     font-size: 2.5rem;
     font-weight: 700;
@@ -73,9 +90,10 @@ border-style: none;
 padding: 15px 35px;
 border-radius: 50px;
 font-family: 'Lexend Deca';
-color: hsl(31, 77%, 52%);
+color: white;
 
 }
+
 
 @media (max-width:840px){
 
